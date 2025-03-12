@@ -2,15 +2,14 @@
 <html lang="en">
 <head>
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-SD4VFPFPBV"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SD4VFPFPBV"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-SD4VFPFPBV');
+    </script>
 
-  gtag('config', 'G-SD4VFPFPBV');
-</script>
-    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Apology</title>
@@ -64,25 +63,55 @@
             width: 40%;
         }
 
+        /* Make the Google Form full-width and full height on mobile */
+        .form-container {
+            width: 100vw;
+            max-width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        .form-container iframe {
+            width: 100vw;
+            height: 80vh; /* Large enough for desktop */
+            border: none;
+            display: block;
+        }
+
+        /* Responsive Design */
+        @media screen and (max-width: 600px) {
+            body {
+                padding: 1rem;
+            }
+
+            .letter-section {
+                padding: 1.5rem;
+                margin: 1rem 0;
+            }
+
+            .growth-section {
+                padding: 1.5rem;
+                margin: 2rem 0;
+            }
+
+            .form-container iframe {
+                width: 100vw;
+                height: 100vh; /* Full height on mobile for better viewing */
+            }
+        }
     </style>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="letter-section heartbeat">
+    <div class="letter-section">
         <h1>I Don't Deserve Your Eyes On This</h1>
         <p>Dear Niya,</p>
-        I have created this website to store my apology to you forever in the archives of the internet, and also as a live update for you on what changes and efforts I'm making to improve myself and become a better human being.
-      <p>Whatever I did, I regret it, I'm going to regret it my entire life...and I aplogize for everything.</p>
-        You were my source of light and happiness for a very long time. You gave me the love I never deserved, but in return, I failed you completely - not just as a partner, but as a human being.
-      <p>This isn't me begging for another chance (God knows I don't deserve it). It's me finally seeing clearly:
-
-How my "love" became a prison for you
-
-, how "I miss you" turned into weapons
-
-, how someone as radiant as you dimmed your light to survive my storms</p>
-
-
+        <p>I have created this website to store my apology to you forever in the archives of the internet, and also as a live update for you on what changes and efforts I'm making to improve myself and become a better human being.</p>
+        <p>Whatever I did, I regret it, I'm going to regret it my entire life...and I apologize for everything.</p>
+        <p>You were my source of light and happiness for a very long time. You gave me the love I never deserved, but in return, I failed you completely - not just as a partner, but as a human being.</p>
+        <p>This isn't me begging for another chance (God knows I don't deserve it). It's me finally seeing clearly:</p>
+        How my "love" became a prison for you, how "I miss you" turned into weapons, how someone as radiant as you dimmed your light to survive my storms
+    </div>
 
     <div class="growth-section">
         <h2>Concrete Changes I'm Making</h2>
@@ -100,11 +129,10 @@ How my "love" became a prison for you
 
     <div class="letter-section">
         <h2>Final Words</h2>
-        <p>I know forgiveness might never come - and that's okay. 
-          <p>I look at it now and want to scream at myself from past: "Can't you see she's giving you her WHOLE HEART? Don't ruin this!" </p> But I did. Over and over. You were my first real love. I became your worst mistake. All I can do now is stay gone, stay better, and hope karma gives you twice the joy you gave me.
-
-        <p>
-        <em>You showed me darkness in myself I must now confront.</em></p>
+        <p>I know forgiveness might never come - and that's okay.</p>
+        <p>I look at it now and want to scream at myself from the past: "Can't you see she's giving you her WHOLE HEART? Don't ruin this!"</p>
+        <p>But I did. Over and over. You were my first real love. I became your worst mistake. All I can do now is stay gone, stay better, and hope karma gives you twice the joy you gave me.</p>
+        <p><em>You showed me darkness in myself I must now confront.</em></p>
 
         <div class="progress-bar">
             <div class="progress-fill" style="width: 20%"></div>
@@ -113,16 +141,14 @@ How my "love" became a prison for you
     </div>
 
     <!-- Google Form Section -->
-    <div class="letter-section form-container">
-        <h2>If You Choose to Share</h2>
-        <p>Just have a look once :></p>
+    <div class="form-container">
         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSflUsgExaqf0H2PVgPKI6b_srQi7dFI7g5Q_kyM4Qf7-C63eQ/viewform?usp=dialog"></iframe>
     </div>
 
     <footer style="text-align: center; margin: 3rem 0; color: var(--accent);">
         <div class="heartbeat">❤️</div>
         <p>I will never contact you again without explicit consent<br> 
-        Last updated: March 12, 2025</p>
+        Last updated: March 13, 2025</p>
     </footer>
 </body>
 </html>
